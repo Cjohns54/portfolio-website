@@ -50,7 +50,7 @@ export const experiences: Experience[] = [
     company: 'Ansys',
     location: 'Waterloo, ON',
     period: 'May 2024 - May 2025',
-    logoUrl: '/ANSYS.png',
+    logoUrl: './ANSYS.png',
     description: [
       'Developing a web application utilizing Angular, TypeScript and Python to monitor advanced CAD simulations, contributing +50 commits and 10 code reviews across 4 deployment release cycles',
       'Developed 3 core modules improving CAD simulation coverage by 40%, with cloud execution and real-time results',
@@ -64,7 +64,7 @@ export const experiences: Experience[] = [
     company: 'EasierEmails.com',
     location: 'Toronto, ON',
     period: 'Jan 2024 - Present',
-    logoUrl: '/easieremails-logo.png',
+    logoUrl: './easieremails-logo.png',
     description: [
       'Managing 4 developers building a platform for dealerships to create personalized and custom email campaigns and web pages, enabling seamless car appointment booking and enhancing customer engagement and lead generation',
       'Clients exceeded industry click-through rates by 20% on email campaigns by utilizing our personalized email tools',
@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
     company: 'P&P Optica',
     location: 'Waterloo, ON',
     period: 'May 2023 - August 2023',
-    logoUrl: '/PPO.jpg',
+    logoUrl: './PPO.jpg',
     description: [
       'Solely developed the core AI model testing script for the company using Python that evaluates the speed and performance of diverse models, capturing results in JSON format for team-wide analysis',
       'Restructured an existing tree model architecture, verified with Pytest, to accommodate distinct edge cases resulting in a 5% accuracy boost while maintaining consistent model performance',
@@ -91,7 +91,7 @@ export const experiences: Experience[] = [
     company: 'Virtek Vision International',
     location: 'Waterloo, ON',
     period: 'January 2023 - April 2023',
-    logoUrl: '/Virtek.jpg',
+    logoUrl: './Virtek.jpg',
     description: [
       'Completed +250 regression tests, verifying the integrity of 75% of existing software features before a major release',
       'Enhanced the CI/CD pipeline by creating unit tests using Python with TestComplete',
@@ -108,14 +108,14 @@ export const projects: Project[] = [
     description: 'SaaS business for dealerships to create personalized and custom email campaigns and web pages. Trusted by dealerships across North America.',
     technologies: ['JavaScript', 'PHP', 'MySQL', 'AWS (EC2, S3, Lightsail)', 'HTML', 'CSS', 'SendGrid API'],
     githubUrl: 'https://cjohns54.github.io/portfolio',
-    imageUrl: '/easieremails.png',
+    imageUrl: './easieremails.png',
   },
   {
     id: 2,
     title: 'Real-Time Home Security System',
     description: 'C, FreeRTOS, Microcontroller, PIR motion sensor, ArdCAM',
     technologies: ['C', 'FreeRTOS', 'Microcontroller', 'PIR motion sensor', 'ArdCAM'],
-    imageUrl: '/securitysystem.png',
+    imageUrl: './securitysystem.png',
     githubUrl: 'https://github.com/Cjohns54/Real-Time-Home-Security-System',
   },
   {
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     title: 'Portfolio Website',
     description: 'React, TypeScript',
     technologies: ['React', 'TypeScript'],
-    imageUrl: '/portfolio.png',
+    imageUrl: './portfolio.png',
     githubUrl: 'https://github.com/Cjohns54/portfolio-website.git',
   },
   {
@@ -144,5 +144,5 @@ export const aboutMe = {
   email: 'caugjohnson@gmail.com',
   github: 'https://cjohns54.github.io/portfolio',
   linkedin: 'https://linkedin.com/in/connorajohnson',
-  profileImage: '/headshot.jpg',
+  profileImage: './headshot.jpg',
 };
